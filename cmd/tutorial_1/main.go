@@ -63,6 +63,16 @@ func main() {
 
 	}
 
+	switch second {
+	case 0:
+		fmt.Println("the devision was exact")
+	case 1, 2:
+		fmt.Println("The division was close")
+	default:
+		fmt.Println("the division was not close")
+
+	}
+
 	//var myInt int = 10
 	//var myFloat float64 = 10.1
 	//fmt.Printf("first value is %v and second value is %v", myInt, myFloat)
