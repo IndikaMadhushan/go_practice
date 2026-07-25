@@ -20,8 +20,8 @@ func main() {
 
 	//var myString string = "Hello " + " " + "World"
 	//fmt.Println(myString)
-	//
-	//fmt.Println(utf8.RuneCountInString("a"))
+
+	//fmt.Println(utf8.RuneCountInString("ab"))
 	//
 	//var myRune rune = 'a'
 	//fmt.Println(myRune)

@@ -26,4 +26,14 @@ func main() {
 	for name, age := range myMap2 {
 		fmt.Println("name is ", name, " and age is ", age)
 	}
+
+	var intArr = [5]int{1, 2, 3, 4, 5}
+
+	for i, v := range intArr {
+		fmt.Println(i, v)
+	}
+
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 }
